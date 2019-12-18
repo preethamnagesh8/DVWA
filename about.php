@@ -8,6 +8,7 @@ dvwaPageStartup( array( 'phpids' ) );
 $page = dvwaPageNewGrab();
 $page[ 'title' ]   = 'About' . $page[ 'title_separator' ].$page[ 'title' ];
 $page[ 'page_id' ] = 'about';
+$dummy = 'AKIA12FTSFST263FSDT3';
 
 $page[ 'body' ] .= "
 <div class=\"body_padded\">
